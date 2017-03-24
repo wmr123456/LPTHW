@@ -19,7 +19,7 @@ print "Opening the file..."
 target = open(filename,'w')
 
 print "Truncate the file. Goodbye!"
-target.truncate()
+#target.truncate()
 
 print "Now I'm going to ask you for three lines."
 
