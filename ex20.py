@@ -11,7 +11,8 @@ def rewind(f):
 	f.seek(0) #将文件指针移动到文件开头
 	
 def print_a_line(line_count,f):
-	print line_count,f.readline()
+	#f.readline读取文件中一行的内容
+	print line_count,f.readline() 
 	
 current_file = open(input_file)
 
