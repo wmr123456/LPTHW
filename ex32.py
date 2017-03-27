@@ -22,7 +22,7 @@ for i in change:
 elements = []
 
 #then use th range function to do 0 to 5 counts
-for i in range(0,6):
+for i in range(0,6):#前闭后开
 	print "Adding %d to the list." % i
 	#append is a function that lists understand
 	elements.append(i)
